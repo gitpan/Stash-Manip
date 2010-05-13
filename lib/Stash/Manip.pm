@@ -1,6 +1,6 @@
 package Stash::Manip;
 BEGIN {
-  $Stash::Manip::VERSION = '0.01';
+  $Stash::Manip::VERSION = '0.02';
 }
 use strict;
 use warnings;
@@ -14,7 +14,7 @@ Stash::Manip - routines for manipulating stashes
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

@@ -20,9 +20,10 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Stash::Manip',
   'PREREQ_PM' => {
-    'Scalar::Util' => '0'
+    'Scalar::Util' => '0',
+    'Test::Exception' => '0'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }
